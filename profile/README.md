@@ -153,6 +153,17 @@ token/session id 공개 금지
 
 ---
 
+## Team Responsibilities
+
+| Role | Main work |
+|---|---|
+| 리더 / 인프라 / 공식 시나리오 / PR 리뷰 | 운영 구조, 배포, 모니터링, seed data, 문서 최신화, 발표, 브로셔 작성, README 작성 |
+| AI 백엔드 | AI 심문, 최종 추리 채점, 프롬프트와 응답 정책, 발표자료 작성, 영상 촬영 |
+| 핵심 백엔드 | 시나리오, 플레이 세션, 증거 해금, 힌트, 리뷰/북마크 |
+| 프론트엔드 / QA | Android UI, 웹 UI, API 연동, E2E 검증 |
+
+---
+
 ## Current Focus
 
 ```text
