@@ -197,6 +197,6 @@ token/session id 공개 금지
 |---|---|
 | Web | https://www.clueroom.xyz |
 | API Health | https://api.clueroom.xyz/actuator/health |
-| Backend | https://github.com/Final-Project-sixteam-company/start-up-project |
-| Android | https://github.com/Final-Project-sixteam-company/project-fe |
-| Web Frontend | https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp |
+| Backend | [Repository](https://github.com/Final-Project-sixteam-company/start-up-project) |
+| Android | [Repository](https://github.com/Final-Project-sixteam-company/project-fe) |
+| Web Frontend | [Repository](https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp) |
