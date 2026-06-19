@@ -82,7 +82,7 @@ flowchart TD
 |---|---|
 | [`start-up-project`](https://github.com/Final-Project-sixteam-company/start-up-project) | Spring Boot backend, AI/gameplay domain, infra and LLMOps docs |
 | [`project-fe`](https://github.com/Final-Project-sixteam-company/project-fe) | Flutter Android app |
-| [`clueroom-toss-miniapp`](https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp) | React/Vite web deployment surface |
+| [`web frontend`](https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp) | React/Vite web deployment surface |
 
 ---
 
