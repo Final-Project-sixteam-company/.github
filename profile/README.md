@@ -179,7 +179,7 @@ token/session id 공개 금지
 
 | Role | Members | Main work |
 |---|---|---|
-| Backend Foundation / Infra / Release Evidence | 황도윤 | 공통 설정, 공식 시나리오 seed, 운영 문서화, PR 리뷰, Blue-Green, monitoring, LLMOps, scale-out PoC |
+| Backend Foundation / Infra / Release Evidence | 황도윤 | 공통 설정, 공식 시나리오 seed, 운영 문서화, PR 리뷰, Blue-Green, monitoring, LLMOps, scale-out PoC, README 작성, 브로셔 작성, 발표 |
 | AI Interrogation / Prompt Policy | 배강혁 | AI 심문, 최종 추리 채점, prompt policy, 발표자료 작성, 영상 촬영 |
 | Game Runtime / Evidence Flow | 소수경 | 시나리오, 플레이 세션, 증거 해금, 힌트, 리뷰/북마크 |
 | Android / Web / QA Surface | 정채림 | Android UI, 웹 UI, API 연동, E2E 검증 |
@@ -203,6 +203,7 @@ token/session id 공개 금지
 | Link | URL |
 |---|---|
 | Web | https://www.clueroom.xyz |
+| Product Brochure | [ClueRoom - AI 추리게임 플랫폼](https://sunset-roll-810.notion.site/ClueRoom-AI-383bfd4e7b00818d9a01faf855da5667?source=copy_link) |
 | API Health | https://api.clueroom.xyz/actuator/health |
 | Backend | [Repository](https://github.com/Final-Project-sixteam-company/start-up-project) |
 | Android | [Repository](https://github.com/Final-Project-sixteam-company/project-fe) |
