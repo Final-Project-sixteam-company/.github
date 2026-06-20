@@ -18,6 +18,13 @@
   <img src="https://raw.githubusercontent.com/Final-Project-sixteam-company/start-up-project/develop/docs/brochure-assets/clueroom_hero_casefile_cover_v2.png" alt="ClueRoom case file cover" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Final-Project-sixteam-company/clueroom-web-fe/main/docs/readme-assets/web-scenario-detail.png" alt="ClueRoom web scenario detail" width="49%">
+  <img src="https://raw.githubusercontent.com/Final-Project-sixteam-company/clueroom-web-fe/main/docs/readme-assets/web-case-hub.png" alt="ClueRoom web investigation hub" width="49%">
+  <br>
+  <sub>React/Vite Web production surface. 공개 README에는 스포일러 위험이 낮은 시나리오 상세와 수사 허브 화면만 사용합니다.</sub>
+</p>
+
 ---
 
 ## Case File
@@ -82,9 +89,7 @@ flowchart TD
 |---|---|
 | [`start-up-project`](https://github.com/Final-Project-sixteam-company/start-up-project) | Spring Boot backend, AI/gameplay domain, infra and LLMOps docs |
 | [`project-fe`](https://github.com/Final-Project-sixteam-company/project-fe) | Flutter Android app |
-| [`web frontend`](https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp) | React/Vite web deployment surface |
-
-> `clueroom-toss-miniapp`은 초기 실험 이름이 남은 legacy repository name이며, 현재 용도는 일반 Web frontend 배포입니다.
+| [`clueroom-web-fe`](https://github.com/Final-Project-sixteam-company/clueroom-web-fe) | React/Vite web deployment surface |
 
 ---
 
@@ -201,4 +206,4 @@ token/session id 공개 금지
 | API Health | https://api.clueroom.xyz/actuator/health |
 | Backend | [Repository](https://github.com/Final-Project-sixteam-company/start-up-project) |
 | Android | [Repository](https://github.com/Final-Project-sixteam-company/project-fe) |
-| Web Frontend | [Repository](https://github.com/Final-Project-sixteam-company/clueroom-toss-miniapp) |
+| Web Frontend | [Repository](https://github.com/Final-Project-sixteam-company/clueroom-web-fe) |
