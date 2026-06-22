@@ -89,6 +89,26 @@ flowchart TD
 | Infra | Blue-Green 배포, external data server, S3 backup, Grafana/Loki/n8n 운영 알림 |
 | LLMOps | AI_CALL/AI_CALL_CONTEXT 로그, token/latency/failure/fallback 집계, Redis 기반 AI quota, 비용/레이트리밋 보고서 |
 | QA | Android E2E, Web E2E, public-safe QA report, 스포일러/정답성 정보 분리 |
+| Ops Automation | Slack alert, Ops Snapshot Agent, LLMOps Codex handoff, GitHub/Jira workflow notification |
+
+---
+
+## Operations & Delivery Evidence
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/ops-snapshot-agent-v3.png" alt="ClueRoom Ops Snapshot Agent Slack report" width="100%">
+      <br>
+      <sub>운영 스냅샷 자동화. active slot, data/server health, backup age, suspicious request pattern을 Slack에서 바로 확인할 수 있게 정리했습니다.</sub>
+    </td>
+    <td width="50%">
+      <img src="assets/github-readme-polish-pr-trace.png" alt="ClueRoom GitHub PR and merge notification trace" width="100%">
+      <br>
+      <sub>GitHub/Jira 알림 흐름. README polish, PR merge, task transition이 팀 Slack에 남아 산출물과 작업 이력을 추적할 수 있습니다.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
