@@ -89,6 +89,26 @@ flowchart TD
 | Infra | Blue-Green 배포, external data server, S3 backup, Grafana/Loki/n8n 운영 알림 |
 | LLMOps | AI_CALL/AI_CALL_CONTEXT 로그, token/latency/failure/fallback 집계, Redis 기반 AI quota, 비용/레이트리밋 보고서 |
 | QA | Android E2E, Web E2E, public-safe QA report, 스포일러/정답성 정보 분리 |
+| Ops Automation | Slack alert, Ops Snapshot Agent, LLMOps Codex handoff, GitHub/Jira workflow notification |
+
+---
+
+## Operations & Delivery Evidence
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="assets/ops-snapshot-agent-v3.png" alt="ClueRoom Ops Snapshot Agent Slack report" width="100%">
+      <br>
+      <sub>운영 스냅샷 자동화. active slot, data/server health, backup age, suspicious request pattern을 Slack에서 바로 확인할 수 있게 정리했습니다.</sub>
+    </td>
+    <td width="50%">
+      <img src="assets/github-readme-polish-pr-trace.png" alt="ClueRoom GitHub PR and merge notification trace" width="100%">
+      <br>
+      <sub>GitHub/Jira 알림 흐름. README polish, PR merge, task transition이 팀 Slack에 남아 산출물과 작업 이력을 추적할 수 있습니다.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -188,7 +208,7 @@ token/session id 공개 금지
 
 | Focus | Members | Main contribution |
 |---|---|---|
-| Backend Foundation / Infra / Release Evidence | 황도윤 | 공통 설정, 공식 시나리오 seed, 운영 문서화, PR 리뷰, Blue-Green, monitoring, LLMOps, scale-out PoC, README/브로셔/발표 근거 정리 |
+| Backend Foundation / Scenario Authoring / Infra / Release Evidence | 황도윤 | 공통 설정, 공식 시나리오 기획·집필·검증, scenario YAML seed 제작/import 운영, public/private 시나리오 경계 관리, 운영 문서화, PR 리뷰, Blue-Green, monitoring, LLMOps, scale-out PoC, README/브로셔/발표 근거 정리 |
 | AI Interrogation / Prompt Policy | 배강혁 | AI 심문, 최종 추리 채점, prompt policy, 발표자료, 시연 영상 |
 | Game Runtime / Evidence Flow | 소수경 | 시나리오, 플레이 세션, 증거 해금, 힌트, 리뷰/북마크 |
 | Android / Web / QA Surface | 정채림 | Android UI, 웹 UI, API 연동, E2E 검증 |
